@@ -486,6 +486,482 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Shunt"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at -2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Shunt"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Shunt resistor with Kelvin connections"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res shunt resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*Shunt*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Shunt_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Shunt_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Energy:INA228"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INA228"
+				(at 3.81 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+				(at 20.32 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina228.pdf"
+				(at 8.89 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "ADC I2C 20-Bit Oversampling Current Shunt"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TSSOP*3x3mm?P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "INA228_0_1"
+				(rectangle
+					(start 7.62 10.16)
+					(end -7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "INA228_1_1"
+				(pin input line
+					(at 10.16 7.62 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "~{Alert}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "Vbus"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "Vin-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "Vin+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "edge-ai:CC2340R5MODA"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1248,6 +1724,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "MCU VI Monitor"
+		(exclude_from_sim no)
+		(at 238.506 22.606 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "43b01129-31bf-4e5f-b7e0-12677dfbf5aa")
+	)
 	(text "Wireless MCU RF"
 		(exclude_from_sim no)
 		(at 134.366 23.368 0)
@@ -1267,6 +1753,16 @@
 			)
 		)
 		(uuid "a8cbb9e5-e550-4179-97a6-339aca7c9575")
+	)
+	(text "3.3v bus\n"
+		(exclude_from_sim no)
+		(at 181.61 72.644 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f411aca6-99f1-4556-98cb-184b1c9fa6b5")
 	)
 	(junction
 		(at 53.34 105.41)
@@ -1323,10 +1819,26 @@
 		(uuid "d9529480-5a36-4fbc-85be-805cd6608ed8")
 	)
 	(junction
+		(at 238.76 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd5f514e-8a4a-47d2-aa29-cdf5fe1a1040")
+	)
+	(junction
 		(at 121.92 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efc6de87-6434-4c87-9abb-207dbde3641c")
+	)
+	(wire
+		(pts
+			(xy 205.74 45.72) (xy 228.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00faa72d-e617-4334-a6e3-121720d9a1fa")
 	)
 	(wire
 		(pts
@@ -1360,6 +1872,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 36.83) (xy 200.66 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fa2d2d-fd46-4055-9873-1a7d12537b2b")
+	)
+	(wire
+		(pts
 			(xy 121.92 116.84) (xy 121.92 119.38)
 		)
 		(stroke
@@ -1390,6 +1912,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 44.45) (xy 203.2 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328a6180-29a7-406d-aa26-f668b7d469e5")
+	)
+	(wire
+		(pts
 			(xy 121.92 119.38) (xy 135.89 119.38)
 		)
 		(stroke
@@ -1397,6 +1929,16 @@
 			(type default)
 		)
 		(uuid "336d8c93-6a85-455a-95b0-474b7209ce58")
+	)
+	(wire
+		(pts
+			(xy 238.76 59.69) (xy 238.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "372ce064-22a3-47a8-ae60-fbb7ae3bb8d6")
 	)
 	(wire
 		(pts
@@ -1427,6 +1969,46 @@
 			(type default)
 		)
 		(uuid "405c868b-43bb-4e63-a73f-a50474d51a1a")
+	)
+	(wire
+		(pts
+			(xy 175.26 99.06) (xy 198.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54528d6c-21fd-48f7-b766-9438e924de6d")
+	)
+	(wire
+		(pts
+			(xy 203.2 49.53) (xy 205.74 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e9db1c-5d71-4b31-ac3e-36d4827da8c2")
+	)
+	(wire
+		(pts
+			(xy 205.74 49.53) (xy 205.74 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64994ce7-8971-434d-b7cb-311bb9a5f424")
+	)
+	(wire
+		(pts
+			(xy 210.82 35.56) (xy 228.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66fedbb2-bb81-426a-b798-122e1969c809")
 	)
 	(wire
 		(pts
@@ -1470,6 +2052,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 50.8) (xy 252.73 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7484a72a-ca7e-4f2a-8f74-71393a73315c")
+	)
+	(wire
+		(pts
 			(xy 53.34 127) (xy 53.34 116.84)
 		)
 		(stroke
@@ -1490,6 +2082,36 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 59.69) (xy 238.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d8c339-17aa-46c1-93b5-8a3792d79d5e")
+	)
+	(wire
+		(pts
+			(xy 205.74 48.26) (xy 228.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856defe3-8538-4017-8136-e131ea5542ff")
+	)
+	(wire
+		(pts
+			(xy 248.92 45.72) (xy 252.73 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ada44d8-8bfc-4bfe-8a1c-c1ad24bc5e2c")
+	)
+	(wire
+		(pts
 			(xy 27.94 132.08) (xy 27.94 137.16)
 		)
 		(stroke
@@ -1497,6 +2119,16 @@
 			(type default)
 		)
 		(uuid "9074fa96-faa0-41ff-8415-56018b9d07b1")
+	)
+	(wire
+		(pts
+			(xy 175.26 124.46) (xy 180.34 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "939b5eb9-a867-4f7d-a709-91080fa836a2")
 	)
 	(wire
 		(pts
@@ -1527,6 +2159,16 @@
 			(type default)
 		)
 		(uuid "9d56901f-c075-4b3f-9f99-5dd39d8978d0")
+	)
+	(wire
+		(pts
+			(xy 238.76 55.88) (xy 238.76 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f31dc1c-039c-4bfe-9868-e3d82edd9ec4")
 	)
 	(wire
 		(pts
@@ -1580,6 +2222,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 96.52) (xy 198.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bceae03c-8622-407e-ba52-3d7157e7e99d")
+	)
+	(wire
+		(pts
 			(xy 181.61 86.36) (xy 181.61 83.82)
 		)
 		(stroke
@@ -1610,6 +2262,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 43.18) (xy 252.73 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c915f663-6ed1-4942-8209-c00dbcb02a8c")
+	)
+	(wire
+		(pts
 			(xy 121.92 114.3) (xy 135.89 114.3)
 		)
 		(stroke
@@ -1617,6 +2279,16 @@
 			(type default)
 		)
 		(uuid "cfbe997f-950c-49c7-b883-5a70862667d4")
+	)
+	(wire
+		(pts
+			(xy 200.66 52.07) (xy 200.66 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1837f78-0825-4d4b-8120-43e1f4b05cbc")
 	)
 	(wire
 		(pts
@@ -1688,6 +2360,46 @@
 		)
 		(uuid "f2683335-df91-4e6e-9256-0f1013e2c3b4")
 	)
+	(wire
+		(pts
+			(xy 205.74 45.72) (xy 205.74 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff56d230-f162-4163-a51d-7ba7a5cfa42c")
+	)
+	(label "3p3v_bus"
+		(at 217.17 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08f63abf-7909-48fe-8a26-14c80681bccc")
+	)
+	(label "MCU_v_i2c_SDA"
+		(at 198.12 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1167b4bf-c8d4-42de-87af-72ede3679b0f")
+	)
+	(label "MCU_v_alert"
+		(at 180.34 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "36b7016f-ffee-437a-b971-b644373819d9")
+	)
 	(label "nRST"
 		(at 125.73 86.36 0)
 		(effects
@@ -1697,6 +2409,16 @@
 			(justify left bottom)
 		)
 		(uuid "3810c87f-f657-4b65-bde0-59687eaf6902")
+	)
+	(label "MCU_v_i2c_SDA"
+		(at 252.73 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4c59067e-110e-4a70-b5be-b913511d50eb")
 	)
 	(label "ANT-IN"
 		(at 106.68 83.82 0)
@@ -1737,6 +2459,36 @@
 			(justify left bottom)
 		)
 		(uuid "7af32498-3671-4647-b238-9bfe9054d68b")
+	)
+	(label "MCU_v_alert"
+		(at 252.73 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ee4c93b-77cf-416b-9c60-5656c5140a94")
+	)
+	(label "MCU_v_i2c_SCL"
+		(at 198.12 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a00fa17d-f0c0-43d4-acb4-b215d5fc38f6")
+	)
+	(label "MCU_v_i2c_SCL"
+		(at 252.73 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3e1c0f4-ea9c-4df3-a80f-5a54f50e7d33")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2045,6 +2797,172 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 238.76 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31e6d70a-8b06-4ad3-b0fd-3c0f8ccc786f")
+		(property "Reference" "#PWR08"
+			(at 238.76 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 238.76 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 238.76 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76339ad6-7d00-4703-8460-0434223c1a68")
+		)
+		(instances
+			(project "spacecraft-health-monitor"
+				(path "/b58b22e8-fce0-4bde-84e0-9e947eec4c45"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Shunt")
+		(at 200.66 46.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37412e93-e5b9-460e-9b41-05695098910a")
+		(property "Reference" "R1"
+			(at 198.12 45.7199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Shunt"
+			(at 198.12 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.882 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Shunt resistor with Kelvin connections"
+			(at 200.66 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e9afb9ba-015e-4554-bf5a-9ba2c47bb1c7")
+		)
+		(pin "1"
+			(uuid "c3575e5e-faa8-4569-88df-e1b96d042f88")
+		)
+		(pin "3"
+			(uuid "8bca9ca1-a774-4475-8454-88b0fd71a888")
+		)
+		(pin "4"
+			(uuid "c007710c-a57e-42e0-8ed1-57f7fc51e921")
+		)
+		(instances
+			(project "spacecraft-health-monitor"
+				(path "/b58b22e8-fce0-4bde-84e0-9e947eec4c45"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDD")
 		(at 181.61 80.01 0)
 		(unit 1)
@@ -2117,6 +3035,84 @@
 			(project "spacecraft-health-monitor"
 				(path "/b58b22e8-fce0-4bde-84e0-9e947eec4c45"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 200.66 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fbec215-a165-489d-a084-c3d5bfff69f8")
+		(property "Reference" "#PWR07"
+			(at 200.66 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 200.66 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 200.66 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c7b3502c-bd5f-440b-acb3-27da968c6a79")
+		)
+		(instances
+			(project "spacecraft-health-monitor"
+				(path "/b58b22e8-fce0-4bde-84e0-9e947eec4c45"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -2277,6 +3273,112 @@
 			(project "spacecraft-health-monitor"
 				(path "/b58b22e8-fce0-4bde-84e0-9e947eec4c45"
 					(reference "CA2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Energy:INA228")
+		(at 238.76 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "696ac971-334a-4fc4-a138-e95b85a599f9")
+		(property "Reference" "U2"
+			(at 240.9033 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "INA228"
+			(at 240.9033 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:TSSOP-10_3x3mm_P0.5mm"
+			(at 259.08 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ina228.pdf"
+			(at 247.65 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High-Side or Low-Side Measurement, Bi-Directional Current and Power Monitor (0-85V) with I2C, SMBus-, and PMBus-Compatible Interface, TSSOP-10 (Texas DGS0010A / VSSOP)"
+			(at 238.76 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "d2ad3896-523a-4880-963f-9fd89241a77c")
+		)
+		(pin "3"
+			(uuid "9c3cdc0e-5403-44e9-a99f-e0ce96731cf8")
+		)
+		(pin "10"
+			(uuid "c999764e-6f63-47a3-877c-0b63f18bdd19")
+		)
+		(pin "5"
+			(uuid "07e4e092-a878-4f7e-ada5-cc5b30f8ce27")
+		)
+		(pin "1"
+			(uuid "06f6b2de-e9c4-45b3-9b2f-78aea66582f7")
+		)
+		(pin "2"
+			(uuid "586d70a5-0acb-46e1-902c-beb5370a0ab2")
+		)
+		(pin "4"
+			(uuid "f5a82130-766a-4dc7-b310-38ba5179ed59")
+		)
+		(pin "6"
+			(uuid "d205dd2e-831b-4b4d-8ea4-917492da1ffc")
+		)
+		(pin "8"
+			(uuid "425e70aa-ef59-46b7-8172-bfcf68c489fd")
+		)
+		(pin "9"
+			(uuid "2d46851f-81c5-48d2-87c3-c46b89567355")
+		)
+		(instances
+			(project "spacecraft-health-monitor"
+				(path "/b58b22e8-fce0-4bde-84e0-9e947eec4c45"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2515,6 +3617,84 @@
 			(project "spacecraft-health-monitor"
 				(path "/b58b22e8-fce0-4bde-84e0-9e947eec4c45"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 210.82 35.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cadeca49-813c-4f97-9ca8-0cccda72d176")
+		(property "Reference" "#PWR06"
+			(at 210.82 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDD"
+			(at 210.82 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 210.82 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ae91d80-c691-4097-8613-9a3f1333f14f")
+		)
+		(instances
+			(project "spacecraft-health-monitor"
+				(path "/b58b22e8-fce0-4bde-84e0-9e947eec4c45"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
